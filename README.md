@@ -1,7 +1,7 @@
 # Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness
 Anonymous, "Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness"  <br /> 
-IEEE/CVF Conference on Computer Vision and Pattern Recognition 2022, New Orleans, USA <br /> 
-Paper ID 2768 <br /> 
+European Conference on Computer Vision 2022, Tel Aviv, Israel <br /> 
+Paper ID 4263 <br /> 
 
 
 ## 1. Installation
