@@ -1,0 +1,13 @@
+autoattack 
+easydict
+numpy
+PyYAML
+tqdm
+wandb
+torch==1.9.0+cu111
+torchattacks==3.2.2
+torchaudio==0.9.0
+torchsummary==1.5.1
+torchvision==0.10.0+cu111
+
+
