@@ -1,8 +1,7 @@
 # Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness
 Anonymous, "Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness"  <br /> 
-European Conference on Computer Vision 2022, Tel Aviv, Israel <br /> 
-Paper ID 4263 <br /> 
-
+The 32nd ACM International Conference on Information and Knowledge Management  <br /> 
+Paper ID 79 <br /> 
 
 ## 1. Installation
 - Ubuntu 18.04.5 LTS
@@ -37,15 +36,9 @@ $ python src/train_adv.py --config ../configs/CIFAR10.yaml
 In the configuration file ```./configs/TEST_CIFAR10.yaml```, modify:
 + model's checkpoint: ```model_path```
 
-Run PGD attack:
-```
-$ python src/pgd_attack.py --config ../configs/TEST_CIFAR10.yaml
-```
+
 Run white-box and square attack:
 ```
 $ python src/auto_attack.py --config ../configs/TEST_CIFAR10.yaml
 ```
-Run SimBA attack:
-```
-$ python src/simba_attack.py --config ../configs/TEST_CIFAR10.yaml
-```
+

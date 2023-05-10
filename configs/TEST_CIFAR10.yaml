@@ -3,46 +3,44 @@ model_name: "wideresnet_34"
 running_name: ""
 
 SYS:
-  use_cuda: True
-  num_gpus: 2
-  GPUs: "0, 1"
-  num_workers: 8
-  random_seed: 41
+    use_cuda: True
+    num_gpus: 1
+    GPUs: "0"
+    num_workers: 8
+    random_seed: 41
 MODEL:
-  num_class: 10
-  latent_dim: 640
-  input_size: 32
+    num_class: 10
+    latent_dim: 640
+    input_size: 32
 TRAIN:
-  data_root: "./data/"
-  batch_size: 1024
+    data_root: "./data/"
+    batch_size: 128
 TEST:
-  epsilon: 0.031
-  num_steps: 10
-  step_size: 0.003
-  batch_size: 1024
-  random: True
-  model_path: "./checkpoints/cifar10/wideresnet_34/xe/wideresnet_34-epoch100.pt"
-  out_folder: "./predict/"
+    epsilon: 0.031
+    num_steps: 10
+    step_size: 0.003
+    batch_size: 128
+    random: True
+    model_path: "./checkpoints/cifar10/wideresnet_34/xe/wideresnet_34-epoch100.pt"
+    out_folder: "./predict/"
 
 LOSS:
-  loss: "xe"
-  is_embedding: True
-  embedding_dim: 256
-  TRADES:
-    beta: 6
-  ALP:
-    beta: 0
-  Sink:
-    eps: 1
-    max_iter: 50
-  SWD:
-    beta: 64
-    iter: 32
-    adv_type: "pgd"
-    use_logit: True
-    one_side: False
-    weighted: True
-  Jac:
-    beta: 0.005
-    num_proj: 1
-    use_logit: True
+    loss: "xe"
+    TRADES:
+        beta: 6
+    ALP:
+        beta: 0
+    Sink:
+        eps: 1
+        max_iter: 50
+    SWD:
+        beta: 64
+        iter: 32
+        adv_type: "pgd"
+        use_logit: True
+        one_side: False
+        weighted: True
+    Jac:
+        beta: 0.002
+        num_proj: 1
+        use_logit: True
