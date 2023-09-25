@@ -1,7 +1,7 @@
 # Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness
 Anonymous, "Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness"  <br /> 
-The 32nd ACM International Conference on Information and Knowledge Management  <br /> 
-Paper ID 79 <br /> 
+TheWebConf24 <br /> 
+Paper ID 149 <br /> 
 
 ## 1. Installation
 - Ubuntu 18.04.5 LTS
