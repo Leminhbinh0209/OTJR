@@ -1,7 +1,7 @@
-# Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness
-Anonymous, "Optimal Transport Meets Optimal Jacobian Regularization for Adversarial Robustness"  <br /> 
-TheWebConf24 <br /> 
-Paper ID 1120 <br /> 
+# Bridging Optimal Transport and Jacobian Regularization by Optimal Trajectory for Enhanced Adversarial Defense
+Anonymous, "Bridging Optimal Transport and Jacobian Regularization by Optimal Trajectory for Enhanced Adversarial Defense"  <br /> 
+SIGKDD 2024 <br /> 
+
 
 ## 1. Installation
 - Ubuntu 18.04.5 LTS
