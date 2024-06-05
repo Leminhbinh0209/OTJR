@@ -1,6 +1,6 @@
 # Bridging Optimal Transport and Jacobian Regularization by Optimal Trajectory for Enhanced Adversarial Defense
 Anonymous, "Bridging Optimal Transport and Jacobian Regularization by Optimal Trajectory for Enhanced Adversarial Defense"  <br /> 
-SIGKDD 2024 <br /> 
+ACCV 2024 <br /> 
 
 
 ## 1. Installation
