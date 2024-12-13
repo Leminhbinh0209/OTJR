@@ -1,6 +1,6 @@
 # Bridging Optimal Transport and Jacobian Regularization by Optimal Trajectory for Enhanced Adversarial Defense
-Anonymous, "Bridging Optimal Transport and Jacobian Regularization by Optimal Trajectory for Enhanced Adversarial Defense"  <br /> 
-ACCV 2024 <br /> 
+Binh M. Le, Shahroz Tariq, and Simon S. Woo, "Bridging Optimal Transport and Jacobian Regularization by Optimal Trajectory for Enhanced Adversarial Defense" (**Oral**) <br /> 
+17th Asian Conference on Computer Vision (ACCV) 2024 <br /> 
 
 
 ## 1. Installation
